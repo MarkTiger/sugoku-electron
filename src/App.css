@@ -1,0 +1,106 @@
+.custom-bg {
+  background-color: #00ad96;
+}
+
+.bottom-tab {
+  background-color: #00ccb1;
+  height: 60px;
+  border-top: 1px solid #ffffff7e;
+  box-shadow: 0 0 1px 1px #00000038;
+}
+
+.input-name {
+  background-color: #00000000;
+  border: none;
+  color: white;
+  border-bottom: 2px solid #00ffdd;
+  width: 50%;
+  font-size: 1.4rem;
+  transition: width 100ms;
+  outline: none;
+}
+
+.input-name:focus {
+  width: 80%;
+  border: none !important;
+  border-bottom: 2px solid #00ffdd !important;
+}
+
+.custom-bg-light {
+  background-color: #00ffdd !important;
+}
+
+.custom-bg-light:hover {
+  background-color: #00e0c2 !important;
+}
+
+.custom-bg-light:active {
+  background-color: #00c5ab !important;
+}
+
+.board {
+  width: 80vw;
+  height: 80vw;
+  max-width: 480px;
+  max-height: 480px;
+}
+
+.col {
+  background-color: #00000000;
+  border: 1px solid #00e0c2;
+  width: 11.1%;
+  height: 100%;
+  outline: none;
+  text-align: center;
+  color: #94f1e5;
+}
+
+.colY {
+  background-color: #00000000;
+  width: 11.1%;
+  height: 100%;
+  border: 1px solid #00e0c2;
+  border-right: 3px solid #00e0c2;
+  outline: none;
+  text-align: center;
+  color: #94f1e5;
+}
+
+.colX {
+  background-color: #00000000;
+  width: 11.1%;
+  height: 100%;
+  border: 1px solid #00e0c2;
+  border-bottom: 3px solid #00e0c2;
+  outline: none;
+  text-align: center;
+  color: #94f1e5;
+}
+
+.colXY {
+  background-color: #00000000;
+  width: 11.1%;
+  height: 100%;
+  border: 1px solid #00e0c2;
+  border-right: 3px solid #00e0c2;
+  border-bottom: 3px solid #00e0c2;
+  outline: none;
+  text-align: center;
+  color: #94f1e5;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.custom-height {
+  height: calc(100vh - 60px);
+}
